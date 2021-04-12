@@ -7,11 +7,13 @@ import {useLocation} from '@docusaurus/router';
 export default function Footer(props) {
 const location = useLocation();
 console.log(location.pathname);
+console.log(location);
+
 
   return (
     <>
       <script async defer src="https://teams.microsoft.com/share/launcher.js"></script>
-      <div>Share this page in MS Teams <a class="teams-share-button" data-href="{ location.pathname }">Share this link</a></div>
+      <div>Share this page in MS Teams <a class="teams-share-button" data-href="{ location }">Share this link</a></div>
       <OriginalFooter {...props} />
     </>
   );
