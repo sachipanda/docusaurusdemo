@@ -2,9 +2,6 @@
 title: Create a Blog Post
 ---
 
-<script async defer src="https://teams.microsoft.com/share/launcher.js"></script>
-Share this page in MS Teams <a  class="teams-share-button" data-href="https://sachipanda.github.io/docusaurusdemo/docs/create-a-blog-post">Share this link</a>
-
 This page will help you on how to create blog posts in Docusaurus.
 
 ## Create a Blog Post
