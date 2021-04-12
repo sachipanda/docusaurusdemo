@@ -14,7 +14,7 @@ console.log(useBaseUrl(location.pathname));
   return (
     <>
       <script async defer src="https://teams.microsoft.com/share/launcher.js"></script>
-      <div>Share this page in MS Teams <a class="teams-share-button" data-href="{ useBaseUrl(location.pathname) }">Share this link</a></div>
+      <div>Share this page in MS Teams <a class="teams-share-button" data-href="{ window.location.href }">Share this link</a></div>
       <OriginalFooter {...props} />
     </>
   );
