@@ -1,5 +1,12 @@
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
+  scripts: [
+    {
+      src:
+      'https://teams.microsoft.com/share/launcher.js',
+      async: true,
+    },
+  ],
   title: 'My Site',
   tagline: 'The tagline of my site',
   url: 'https://your-docusaurus-test-site.com',
