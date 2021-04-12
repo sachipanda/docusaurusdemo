@@ -1,5 +1,5 @@
 ---
-title: Thank you!
+title: Thank you all!
 ---
 
 Congratulations on making it this far!
