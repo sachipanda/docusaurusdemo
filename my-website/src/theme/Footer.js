@@ -2,13 +2,14 @@
 import OriginalFooter from '@theme-original/Footer';
 import React from 'react';
 import {useLocation} from '@docusaurus/router';
+import { renderButtons } from 'https://teams.microsoft.com/share/launcher.js';
 
 export default function Footer(props) {
 const location = useLocation();
 console.log(location.pathname);
-//shareToMicrosoftTeams.renderButtons()
+shareToMicrosoftTeams.renderButtons()
 
-window["pass_function"]();
+//window["pass_function"]();
      
 const refreshPage = ()=>{
      window.location.reload();
