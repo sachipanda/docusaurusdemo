@@ -1,6 +1,6 @@
 ---
 id: project-structure
-title: Project Strcture
+title: Project Structure
 ---
 ## Project structure {#project-structure}
 
