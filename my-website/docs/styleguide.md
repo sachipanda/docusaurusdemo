@@ -123,4 +123,4 @@ When working with directories and files:
 
 8. The `doc/topics/` directory holds topic-related technical content. Create `doc/topics/topic_name/subtopic_name/index.md` when subtopics become necessary. General user and administrator documentation should be placed accordingly.
 
-9. If you’re unsure where to place a document or a content addition, this shouldn’t stop you from authoring and contributing. Use your best judgment, and then ask the reviewer of your MR to confirm your decision. You can also ask a technical writer at any stage in the process. The technical writing team reviews all documentation changes, regardless, and can move content if there is a better place for it.
+9. If you’re unsure where to place a document or a content addition, this shouldn’t stop you from authoring and contributing. Use your best judgment, and then ask the reviewer of your PR to confirm your decision. You can also ask a technical writer at any stage in the process. The technical writing team reviews all documentation changes, regardless, and can move content if there is a better place for it.
