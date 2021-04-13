@@ -19,7 +19,7 @@ firstMethod = ( event ) => {
     console.log("page may have reloaded now")
 }
 
-this.firstMethod();
+console.log({ refreshPage })
      
   return (
     <>
