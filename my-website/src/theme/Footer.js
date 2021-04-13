@@ -23,8 +23,8 @@ const refreshPage = ()=>{
      
   return (
     <>
-      
-      <div>Share this page in MS Teams <a class="teams-share-button" data-href={"https://sachipanda.github.io" + useLocation().pathname}>Share this link</a></div>
+      // useLocation().pathname 
+      <div>Share this page in MS Teams <a class="teams-share-button" data-href={"https://sachipanda.github.io" + window.location.href}>Share this link</a></div>
       <div>
       <h1>{Math.random()}</h1>
       <button onClick={refreshPage}>Refresh</button>
