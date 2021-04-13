@@ -13,13 +13,13 @@ const refreshPage = ()=>{
      console.log("Just ran refreshPage method")
   }
 
-firstMethod = ( event ) => {
-    console.log("running firstMethod before reload")
-    window.location.reload();
-    console.log("page may have reloaded now")
-}
+//firstMethod = ( event ) => {
+//    console.log("running firstMethod before reload")
+//    window.location.reload();
+//    console.log("page may have reloaded now")
+//}
 
-console.log({ refreshPage })
+console.log({refreshPage})
      
   return (
     <>
