@@ -14,6 +14,7 @@ module.exports = {
         'contribution',
         'project-structure',
         'developing-locally',
+        'writing-style-guide',
       ],
     },
   ],
