@@ -1,6 +1,7 @@
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
   scripts: [
+    'https://sachipanda.github.io/docusaurusdemo/refresh.js',
     {
       src:
       'https://teams.microsoft.com/share/launcher.js',
