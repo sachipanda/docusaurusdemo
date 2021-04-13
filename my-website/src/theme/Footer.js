@@ -7,10 +7,17 @@ export default function Footer(props) {
 const location = useLocation();
 console.log(location.pathname);
 
+const refreshPage = ()=>{
+     window.location.reload();
+  }
 
   return (
     <>
       <div>Share this page in MS Teams <a class="teams-share-button" data-href={"https://sachipanda.github.io" + location.pathname}>Share this link</a></div>
+      <div>
+      <h1>{Math.random()}</h1>
+      <button onClick={refreshPage}>Refresh</button>
+      </div>
       <OriginalFooter {...props} />
     </>
   );
