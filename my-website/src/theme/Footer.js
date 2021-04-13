@@ -13,16 +13,18 @@ const refreshPage = ()=>{
      console.log("Just ran refreshPage method")
   }
 
+shareToMicrosoftTeams.renderButtons();
 //firstMethod = ( event ) => {
 //    console.log("running firstMethod before reload")
 //    window.location.reload();
 //    console.log("page may have reloaded now")
 //}
 
-console.log({refreshPage})
+//console.log({refreshPage});
      
   return (
     <>
+      
       <div>Share this page in MS Teams <a class="teams-share-button" data-href={"https://sachipanda.github.io" + useLocation().pathname}>Share this link</a></div>
       <div>
       <h1>{Math.random()}</h1>
