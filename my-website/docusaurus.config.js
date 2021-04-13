@@ -6,7 +6,10 @@ module.exports = {
       'https://teams.microsoft.com/share/launcher.js',
       async: true,
     },
+    {
+      src:
     'https://sachipanda.github.io/docusaurusdemo/refresh.js',
+    },
   ],
   title: 'My Site',
   tagline: 'The tagline of my site',
