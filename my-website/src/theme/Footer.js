@@ -13,7 +13,6 @@ const refreshPage = ()=>{
      console.log("Just ran refreshPage method")
   }
 
-shareToMicrosoftTeams.renderButtons();
 //firstMethod = ( event ) => {
 //    console.log("running firstMethod before reload")
 //    window.location.reload();
