@@ -1,12 +1,12 @@
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
   scripts: [
-    'https://sachipanda.github.io/docusaurusdemo/refresh.js',
     {
       src:
       'https://teams.microsoft.com/share/launcher.js',
       async: true,
     },
+    'https://sachipanda.github.io/docusaurusdemo/refresh.js',
   ],
   title: 'My Site',
   tagline: 'The tagline of my site',
