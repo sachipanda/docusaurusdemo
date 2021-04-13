@@ -7,10 +7,20 @@ export default function Footer(props) {
 const location = useLocation();
 console.log(location.pathname);
 
+
 const refreshPage = ()=>{
      window.location.reload();
+     console.log("Just ran refreshPage method")
   }
-window.location.reload();
+
+firstMethod = ( event ) => {
+    console.log("running firstMethod before reload")
+    window.location.reload();
+    console.log("page may have reloaded now")
+}
+
+this.firstMethod();
+     
   return (
     <>
       <div>Share this page in MS Teams <a class="teams-share-button" data-href={"https://sachipanda.github.io" + location.pathname}>Share this link</a></div>
