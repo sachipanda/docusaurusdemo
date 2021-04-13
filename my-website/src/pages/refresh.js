@@ -1,3 +1,3 @@
-function pass_function(){
-  shareToMicrosoftTeams.renderButtons();
-}
+//function pass_function(){
+//  shareToMicrosoftTeams.renderButtons();
+//}
