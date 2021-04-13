@@ -10,7 +10,7 @@ console.log(location.pathname);
 const refreshPage = ()=>{
      window.location.reload();
   }
-
+window.location.reload();
   return (
     <>
       <div>Share this page in MS Teams <a class="teams-share-button" data-href={"https://sachipanda.github.io" + location.pathname}>Share this link</a></div>
