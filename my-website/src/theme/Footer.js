@@ -8,6 +8,8 @@ const location = useLocation();
 console.log(location.pathname);
 //shareToMicrosoftTeams.renderButtons()
 
+window["pass_function"]();
+     
 const refreshPage = ()=>{
      window.location.reload();
      console.log("Just ran refreshPage method")
