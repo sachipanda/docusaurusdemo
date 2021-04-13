@@ -2,7 +2,7 @@
 import OriginalFooter from '@theme-original/Footer';
 import React from 'react';
 import {useLocation} from '@docusaurus/router';
-import { shareToMicrosoftTeams } from 'https://teams.microsoft.com/share/launcher.js';
+//import { shareToMicrosoftTeams } from 'https://teams.microsoft.com/share/launcher.js';
 
 export default function Footer(props) {
 const location = useLocation();
