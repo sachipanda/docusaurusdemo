@@ -6,7 +6,7 @@ import {useLocation} from '@docusaurus/router';
 export default function Footer(props) {
 const location = useLocation();
 console.log(location.pathname);
-
+//shareToMicrosoftTeams.renderButtons()
 
 const refreshPage = ()=>{
      window.location.reload();
@@ -23,8 +23,7 @@ const refreshPage = ()=>{
      
   return (
     <>
-      // {"https://sachipanda.github.io" + useLocation().pathname} 
-      <div>Share this page in MS Teams <a class="teams-share-button" data-href={window.location.href()}>Share this link</a></div>
+      <div>Share this page in MS Teams <a class="teams-share-button" data-href={"https://sachipanda.github.io" + useLocation().pathname}>Share this link</a></div>
       <div>
       <h1>{Math.random()}</h1>
       <button onClick={refreshPage}>Refresh</button>
